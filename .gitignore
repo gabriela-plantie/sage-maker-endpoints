@@ -1,0 +1,7 @@
+__pycache*
+**/*.csv
+installation.ipynb
+credentials.py
+**/*.pkl
+**/catboost_info
+.ipynb_checkpoints

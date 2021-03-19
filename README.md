@@ -1,5 +1,5 @@
 # README
-Deploying an __AWS__ built in algorithm.
+1) Deploying an __AWS__ built in algorithm.
 
 
 I took the example from: 
@@ -19,3 +19,7 @@ Requirements:
 
 + `sagemaker`==2.29.0
 + aws client
+
+2) Create Docker with model
+
+   
