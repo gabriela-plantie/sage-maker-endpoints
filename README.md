@@ -1,7 +1,6 @@
 # README
 1) Deploying an __AWS__ built in algorithm.
 
-
 I took the example from: 
 
 https://github.com/krishnaik06/AWS-SageMaker/blob/master/Untitled2.ipynb
@@ -20,6 +19,6 @@ Requirements:
 + `sagemaker`==2.29.0
 + aws client
 
-2) Create Docker with model
+2) Create __Docker__ with model and deploy it on __Heroku__
 
    

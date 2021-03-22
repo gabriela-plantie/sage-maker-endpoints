@@ -37,10 +37,11 @@ def invoke():
     
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2 or ( not sys.argv[1] in [ "serve", "train"] ):
+    
+    if len(sys.argv) == 2 and ( not sys.argv[1] in [ "serve", "train"] ):
         raise Exception("Invalid argument: you must inform 'train' for fake training mode or 'serve' predicting mode") 
 
-    train = (sys.argv[1] == "train")
+    train = len(sys.argv) == 2 and (sys.argv[1] == "train")
     
     if train:
         print( "Fake training completed" )
